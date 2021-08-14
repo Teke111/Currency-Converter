@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color:#2462e9;
+    margin-top: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center; 
+    color: #fff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+
+h2{
+    font-size: 25px;
+    color: #2462e9;
+    position: relative;
+    left: 52px;
+    top: 12px;
+}
+.btn{
+    color: #fff;
+    background-color: #2462e9;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 12px;
+}
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.currency select{
+    padding: 10px 20px 10px 10px;
+    
+    margin-left: 1px;
+}
+
+.currency input{
+    text-align: right;
+    height: 40px;
+    font-size: 20px;
+    width: 330px;
+    margin-left: 1px;
+
+}
+.swap-rate-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.rate{
+    color: #2462e9;
+    font-size: 19px;
+    padding: 0 10px;
+    margin-right: 1000px;
+
+}
+
